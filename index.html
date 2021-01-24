@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cricket Game</title>
+  </head>
+  <body>
+    <main>
+      <section class="player player-active">
+        <h1 class="name" id="name">Player</h1>
+        <!--Random Number-->
+        <h2 class="score" id="score">?</h2>
+        <div class="current">
+          <p class="current-label">Current Score</p>
+          <p class="current-score" id="current">0</p>
+        </div>
+      </section>
+      <section class="player">
+        <div class="highscore">
+          <p class="current-label">Your Winning Total</p>
+          <p class="high-score" id="highscore">20</p>
+        </div>
+        <div class="ballsleft">
+          <p class="balls" id="balls">6</p>
+          <p class="current-label" id="balls-left">🥎 Balls left</p>
+          <p class="target">✅Target =2️⃣0️⃣</p>
+        </div>
+      </section>
+      <button class="btn btn-new">🔄 Play Again</button>
+      <button class="btn btn-shot">🏏 Shot</button>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
